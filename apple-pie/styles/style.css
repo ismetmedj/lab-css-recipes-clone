@@ -1,0 +1,87 @@
+
+.welcome{
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+}
+
+.welcome>h1{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 25rem ;
+}
+
+#intro{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;   
+    margin-top: 3rem; 
+
+}
+
+#ingredients{
+    text-align: left;
+    width: 50%;
+    margin-left: 25%;  
+    margin-top: 3rem; 
+  
+    
+
+}
+
+#directions{
+    text-align: left;
+    width: 50%;
+    margin-left: 25%;     
+    margin-top: 3rem; 
+ 
+
+}
+
+
+.recipe-info{
+   width: 25%;
+   margin-top: 3rem; 
+
+}
+
+.cooking-info{
+    width: 25%;
+    margin-top: 3rem; 
+
+
+}
+
+.center-image{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+   
+
+}
+
+ol {
+    /* 1. Remove the default list style */  
+    list-style: none;
+  }
+  
+  ol > li {
+    /* 2. Create a custom list counter */  
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    /*3. Set the new style for the list markers */
+    content: counter(listcounter) ")";
+  }
+
+  hr{
+    width: 50%;
+    margin-top: 3rem; 
+
+
+  }
